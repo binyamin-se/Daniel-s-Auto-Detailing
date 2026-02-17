@@ -17,10 +17,10 @@ export function CTASection({
         <p className="mt-3 max-w-2xl text-gray-200">{description}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
-            href="/quote"
-            className="rounded-full bg-accentBlue px-6 py-3 text-sm font-semibold text-white"
+            href="/book"
+            className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-black"
           >
-            Get Quote
+            Book Now
           </Link>
           <a
             href={phoneHref}

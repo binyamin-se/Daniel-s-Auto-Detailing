@@ -37,11 +37,11 @@ export function Navbar() {
           </a>
           <motion.div whileHover={{ y: -1.5 }}>
             <Link
-              href="/quote"
-              className="relative overflow-hidden rounded-full bg-accentBlue px-4 py-2 text-sm font-medium text-white shadow-glass"
+              href="/book"
+              className="relative overflow-hidden rounded-full bg-white px-4 py-2 text-sm font-medium text-black shadow-glass"
             >
               <span className="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-transparent via-white/40 to-transparent opacity-70 animate-shimmer" />
-              <span className="relative">Get a Quote</span>
+              <span className="relative">Book Now</span>
             </Link>
           </motion.div>
         </div>

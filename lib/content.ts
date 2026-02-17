@@ -10,6 +10,7 @@ export const emailAddress = businessEmail;
 
 export const navLinks = [
   { href: "/", label: "Home" },
+  { href: "/book", label: "Book Now" },
   { href: "/services", label: "Services" },
   { href: "/membership", label: "Memberships" },
   { href: "/gallery", label: "Gallery" },

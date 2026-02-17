@@ -9,17 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        charcoal: "#0B0F19",
-        light: "#F8FAFC",
-        accentBlue: "#2563EB",
-        accentRed: "#D62828"
+        charcoal: "#0B0B0B",
+        light: "#FFFFFF",
+        accentBlue: "#BDBDBD",
+        accentRed: "#FFFFFF"
       },
       boxShadow: {
         glass: "0 18px 40px rgba(8,15,30,0.35)"
       },
       backgroundImage: {
         "hero-glow":
-          "radial-gradient(circle at center, rgba(37,99,235,0.38), rgba(37,99,235,0) 65%)",
+          "radial-gradient(circle at center, rgba(189,189,189,0.28), rgba(189,189,189,0) 65%)",
         "luxury-grid":
           "linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)"
       },

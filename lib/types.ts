@@ -76,3 +76,22 @@ export type MembershipLead = {
   zipCode: string;
   preferredDayTime: string;
 };
+
+export type BookingStatus = "pending" | "paid" | "cancelled";
+
+export type Booking = {
+  id: string;
+  customerName: string;
+  phone: string;
+  email: string;
+  vehicleYearMakeModel: string;
+  serviceType: ServiceCategory;
+  location: string;
+  notes?: string;
+  startTimeISO: string;
+  endTimeISO: string;
+  depositAmountCents: number;
+  status: BookingStatus;
+  stripeSessionId?: string;
+  createdAt: string;
+};

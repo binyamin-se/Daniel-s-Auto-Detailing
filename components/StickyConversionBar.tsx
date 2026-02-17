@@ -18,10 +18,10 @@ export function StickyConversionBar() {
           <a href={textHref} className="rounded-full border border-white/20 px-3 py-2 text-center text-xs text-white">
             Text
           </a>
-          <button onClick={() => setOpen(true)} className="rounded-full bg-accentRed px-3 py-2 text-xs font-semibold text-white">
+          <button onClick={() => setOpen(true)} className="rounded-full bg-accentRed px-3 py-2 text-xs font-semibold text-black">
             Get Quote
           </button>
-          <Link href="/quote" className="rounded-full bg-accentBlue px-3 py-2 text-center text-xs font-semibold text-white">
+          <Link href="/book" className="rounded-full bg-accentBlue px-3 py-2 text-center text-xs font-semibold text-black">
             Book
           </Link>
         </div>

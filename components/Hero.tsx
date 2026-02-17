@@ -34,11 +34,11 @@ export function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href="/quote"
-              className="relative overflow-hidden rounded-full bg-accentRed px-7 py-3 text-sm font-semibold text-white"
+              href="/book"
+              className="relative overflow-hidden rounded-full bg-white px-7 py-3 text-sm font-semibold text-black"
             >
               <span className="absolute inset-y-0 left-0 w-20 animate-shimmer bg-gradient-to-r from-transparent via-white/50 to-transparent" />
-              <span className="relative">Get Quote</span>
+              <span className="relative">Book Now</span>
             </Link>
             <a
               href={phoneHref}
